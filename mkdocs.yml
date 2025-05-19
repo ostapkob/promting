@@ -1,0 +1,94 @@
+site_name: Prompt Engineering
+nav: 
+  - Home: index.md
+  - 1. Цепочки рассуждений и парадигмы Chain-of-X:
+    - 1.1 Обзор парадигм Chain-of-X для LLM : 1/1.1_Beyond_Chain-of-Thought.md
+    - 1.2 CoR Многопарадигмальный подход к математическим рассуждениям в LLM : 1/1.2_Chain-of-Reasoning.md
+    - 1.3 Метод продуманного решения задач с помощью больших языковых моделей (ToT) : 1/1.3_Tree_of_Thoughts.md
+    - 1.4 Улучшение цепочки рассуждений с помощью итеративного суммирования : 1/1.4_Understanding_Before_Reasoning.md
+    - 1.5 Концептуально-ориентированная цепочка рассуждений (CGCoT) для сравнения текстов : 1/1.5_Concept-Guided_Chain-of-Thought.md
+    - 1.6 Каузальная цепочка рассуждений CauCoT : 1/1.6_CauCoT_CoT.md
+    - 1.7 Chain of Draft (CoD) Минималистичные рассуждения для эффективности : 1/1.7_Chain_of_Draft_(CoD).md
+    - 1.8 Chain-of-Verification : 1/1.8_Chain-of-Verification.md
+    - 1.9 Strategic Chain-of-Thought (SCoT) : 1/1.9_Strategic_Chain-of-Thought.md
+    - 1.10 Самоорганизованная цепочка размышлений : 1/1.10_Self-organized_chain_of_thought.md
+    - 1.11 Program of Thought (PoT) Структурированное программное рассуждение : 1/1.11_Program_of_Thought.md
+    - 1.12 Исповедование по теме Chain of Guidance: 1/1.12_Chain_of_Guidance.md
+
+  - 2. Методы и стратегии оптимизации промптов:
+    - 2.1 Heuristic Prompt Strategy Search (HPSS) — Оптимизация стратегий промптов : 2/2.1_Heuristic_Prompt_Strategy_Search_HPSS—Optimization.md
+    - 2.2 Ансамблевый формат промптов : 2/2.2_Ansamble.md
+    - 2.3 Гибридные стратегии-комбинирование подходов промптинга : 2/2.3_Gibride.md
+    - 2.4 Структурированная подача информации-имитация RAG-подхода : 2/2.4_Structural_submission.md
+    - 2.5 Каскадный метод размещения информации в промптах : 2/2.5_Cascading.md
+    - 2.6 Стратегия Chunking разделение больших текстов : 2/2.6_Chunking.md
+    - 2.7 Использование элементов неестественного языка в промптах : 2/2.7_Unnatural_language.md
+    - 2.8 Комбинирование декларативных и императивных инструкций : 2/2.8_Combining_declarative_imperative.md
+    - 2.9 Имитация графов знаний : 2/2.9_Imitation_knowledge_graphs.md
+    - 2.10 Использование конкретных ролей в промпт-инжиниринге : 2/2.10_Specific_roles_in_prompting.md
+    - 2.11 Двухэтапное создание промптов : 2/2.11_Two_stage_prompting.md
+    - 2.12 Метод Ask-when-Needed (AwN) : 2/2.12_Ask_when_needed_method.md
+    - 2.13 Мета-промптинг структура и синтаксис : 2/2.13_Meta_prompting_structure_syntax.md
+
+  - 3. Техники самоконтроля и итеративного улучшения:
+    - 3.1 Метод Self Refine-Самопроверка и улучшение ответов : 3/3.1_Self_Refine.md
+    - 3.2 Итеративная пошаговая рефлексия : 3/3.2_Iterative_stepwise_reflection.md
+    - 3.3 Метод промежуточного резюмирования InftyThink : 3/3.3_InftyThink.md
+    - 3.4 Многократная проверка : 3/3.4_Multiple_verification.md
+    - 3.5 Итеративность : 3/3.5_Iterative_prompting.md
+    - 3.6 Эвристический поиск стратегий : 3/3.6_Heuristic_search_strategies.md
+
+  - 4. Когнитивные и психологические аспекты промпт-инжиниринга:
+    - 4.1 Иллюзия контроля Провал иерархий инструкций в LLM : 4/4.1_Illusion_of_control_of_the_failure_of_hierarchies.md
+    - 4.2 Снижение когнитивной нагрузки : 4/4.2_Reducing_cognitive_load.md
+    - 4.3 Когнитивная обоснованность : 4/4.3_Cognitive_rationale.md
+    - 4.4 Эффект позиционного предпочтения : 4/4.4_Effect_of_positional_preference.md
+    - 4.5 Предвзятость формата : 4/4.5_Format_bias_in_prompt_engineering.md
+    - 4.6 Контрастное рассуждение : 4/4.6_Contrastive_reasoning_in_prompt_engineering.md
+
+  - 5. Форматирование и структурирование промптов:
+    - 5.1 Основные принципы влияния форматирования : 5/5.1_Contrastive_reasoning.md
+    - 5.2 Порядок компонентов в промпте : 5/5.2_Order_of_components.md
+    - 5.3 Стандартная структура эффективных промптов : 5/5.3_Structure_role_context_instruction.md
+    - 5.4 Маркированная структура промптов : 5/5.4_Bulleted_structure.md
+    - 5.5 Топ-5 техник саммаризации : 5/5.5_Top-5_Technician_summarizing_from_research.md
+    - 5.6 Теоретические основы многоэтапности : 5/5.6_Foundations_of_multistep.md
+
+  - 6. Контекстуальность и специфика в промптах:
+    - 6.1 Контекстуальность в промпт-инжиниринге : 6/6.1_Contextuality.md
+    - 6.2 Активация специфических знаний : 6/6.2_Activation_of_specific_knowledge.md
+    - 6.3 Сохранение контекстуальной связности : 6/6.3_Preserving_contextual_coherence.md
+    - 6.4 Перевзвешивание контента : 6/6.4_Content_reweighting.md
+    - 6.5 Принцип специфичности : 6/6.5_Principle_of_specificity.md
+    - 6.6 Пространственные паттерны : 6/6.6_Spatial_patterns.md
+
+  - 7. Оценка и метрики качества промптов:
+    - 7.1 Критерии оценки в промптах : 7/7.1_Evaluation_criteria.md
+    - 7.2 Шкала оценки : 7/7.2_Assessment_scale.md
+    - 7.3 Многомерная оценка ответов : 7/7.3_Multidimensional_prompt_evaluation.md
+    - 7.4 8 ключевых факторов HPSS : 7/7.4_8_key_factors_HPSS.md
+
+  - 8. Контрфактические и альтернативные методы:
+    - 8.1 Техники контрфактического согласованного промптинга : 8/8.1_Counterfactual_consistent.md
+    - 8.2 Meta Prompting принципы и практика : 8/8.2_Meta_prompting_principles_and_practice.md
+    - 8.3 MultiAgentBench : 8/8.3_MultiAgentBench.md
+
+
+theme:
+  name: material
+  locale: ru
+  palette:
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: teal
+    accent: teal
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: teal
+    accent: teal
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
